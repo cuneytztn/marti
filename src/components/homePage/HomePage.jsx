@@ -6,11 +6,11 @@ import MovieList from "../movieList/MovieList";
 const HomePage = () => {
   return (
     <>
-      <div className="row">
-        <div className="col-3">
-          <MovieList />
+      <div className="homePage">
+        <div className="movieList">
+          <MovieList/>
         </div>
-        <div className="col-9">
+        <div className="movieDetail">
           <MovieDetail />
         </div>
       </div>
