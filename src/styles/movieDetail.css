@@ -1,0 +1,17 @@
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    margin: 3rem;
+  }
+  
+  .movie-detail div {
+    margin-bottom: 1rem;
+  }
+  
+  .movie-detail span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
